@@ -22,44 +22,20 @@
 text-decoration: none;
   color: rgb(98, 98, 98);
    }
-   #header{
-
-  /*display: inline-block;
-  padding: 10px 30px;*/
+   .header{
   float: left;
-width: 1100px;
+  width: 1100px;
    }
-   #head{
-   
-  
-  font-size: 14px;
-  font-family: PlayfairDisplay;
-  color: rgb(98, 98, 98);
-  text-transform: uppercase;
-  line-height: 1.714;
-  text-align: center;
- 
-  width: 71px;
-  height: 11px;
-  z-index: 76;
-
-
-  margin-left: 50px;
-  margin-right: 50px;
-
-
-
-   }
-   #nav{
+   .nav{
     
     position: relative;
     top: -20px;
-    left: 550px;
-    width:670px;
+    left: 500px;
+    width:770px;
     margin: 0px;
 
    }
-  #Min {
+  .header_Minimo {
 
   font-size: 30px;
   font-family: lnconsolata;
@@ -67,12 +43,11 @@ width: 1100px;
   text-transform: uppercase;
   line-height: 0.8;
   text-align: center;
- 
+position: relative;
+top: 20px;
   width: 119px;
   height: 23px;
   z-index: 77;
-
-
 
 }
 body {
@@ -83,28 +58,20 @@ body {
   text-align: left;
 }
 
-
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-.image {
+.cover {
   box-sizing:border-box; 
   width: 1162px;
   height: 774px;
  
 }
-#aside{
+.aside{
 	position: relative;
-  top:-2320px;
+  top:-2120px;
   left: 880px;
 	width:285px;
 	height: 1000px;
-	
-	
-
-}
-#Lorem {
+	}
+.article__text {
   font-size: 14px;
   font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
@@ -114,14 +81,14 @@ nav ul {
  width:780px;
  top:180px;
 }
-#rb{
-   font-family: "PlayfairDisplay-Black";
+.article__text_bold{
+   font-family: PlayfairDisplay-Black;
    font-size: 14px;
   color: rgb(98, 98, 98);
   line-height: 1.714;
 }
 
-#The{
+.article__title{
 
   font-size: 30px;
   font-family: "PlayfairDisplay";
@@ -132,7 +99,11 @@ nav ul {
   top:130px;
  
 }
-#Photodiary{
+.article__position{
+  position: relative;
+  top:100px;
+}
+.article__Photodiary{
 	position:relative;
 	top:100px;
 
@@ -144,36 +115,52 @@ nav ul {
   line-height: 1.2;
   height: 11px;
 }
-#main{
+/*#main{
 	width:780px;
+}*/
+
+.nav_links li{
+     display: inline;
+      font-size: 14px;
+  font-family: PlayfairDisplay;
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+ 
+  width: 71px;
+  height: 11px;
+  z-index: 76;
+
+  margin-left: 50px;
+  margin-right: 50px;
 }
-#wrapper{
+.wrapper{
 	max-height: 3200px;
 	margin:70px;
 }
-.image1 {
- /* background-image: url("image/image1.png");*/
+.article__image1 {
   position: relative;
   top: 200px;
   height: 520px;
 
   
 }
-.image2 {
+.article__image2 {
    position: relative;
   top: 250px;
   height: 520px;
 }
-.image3 {
+.article__image3 {
    position: relative;
   top: 300px;
   height: 520px;
 }
-#image4{
+.article__image4{
    width: 285px;
   height: 185px;
 }
-#About{
+.aside__AboutMe{
 
   font-size: 24px;
   font-family: "PlayfairDisplay";
@@ -182,7 +169,7 @@ nav ul {
  position: relative;
 
 }
-#Ab{
+.aside__text{
 
   font-size: 12px;
   font-family: "PlayfairDisplay";
@@ -192,7 +179,7 @@ nav ul {
 
 
 }
-#Duis{
+.article__paragraph{
   font-size: 14px;
   font-family: PlayfairDisplay-Italic;
   color: rgb(98, 98, 98);
@@ -204,10 +191,9 @@ nav ul {
  left:50px;
  width:650px;
  }
- #Text3{
+ .article__text2{
  	font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
-  /*font-style: italic;*/
   font-weight: 400;
   line-height: 1.714;
   text-align: left;
@@ -217,30 +203,30 @@ nav ul {
 
  width:720px;
  }
- .pinterest{
+ .article__footer_pinterest{
  	
 position:relative;
 top:-95px;
 left:240px;
  }
- .tumblr{
+ .article__footer_tumblr{
 position:relative;
 top:-75px;
 left:210px;
  }
- .g{
+ .article__footer_g{
    width: 17px;
   height: 17px;
 position:relative;
 top:-57px;
 left:180px;
  }
-  .tw{
+  .article__footer_tw{
   position:relative;
 top:-40px;
 left:150px;
   }
- .fb{
+ .article__footer_fb{
 
   width: 10px;
 height: 10px;
@@ -248,12 +234,12 @@ position:relative;
 top:-30px;
 left:120px;
  }
- #sh{
+ .article__footer{
  	position: relative;
  	left:600px;
  	top:450px;
  }
- #Share{
+ .article__footer_Share{
 
   font-size: 13px;
   font-family: "Ubuntu";
@@ -262,7 +248,7 @@ left:120px;
   line-height: 1.846;
   position: relative;
  }
- #footer{
+ .Footer{
  
    padding: 40px;
  	height: :100px;
@@ -273,7 +259,7 @@ left:120px;
    width:1200px;
   
  }
- #fot{
+ .Footer__text{
 
   font-size: 14px;
   font-weight: 600;
@@ -283,11 +269,11 @@ left:120px;
   position: relative;
 left:20px;
 }
-#privacy{
+.Footer__text_privacy{
 	margin: 30px;
 }
 
- #Follow{
+ .Footer__share{
  	position: relative;
  	left: 1000px;
   float: left;
@@ -299,7 +285,7 @@ left:20px;
   	top:-20px;
   margin-left: 0px;
  }
-#facebook{
+.Footer__share_facebook{
  
    position: relative;
   top: -20px;
@@ -307,7 +293,7 @@ left:20px;
   width:10px;
   height: 18px;
 }
-#twitter{
+.Footer__share_twitter{
  
   position: relative;
   top: -20px;
@@ -315,36 +301,36 @@ left:20px;
   width:18px;
   height: 16px;
 }
-#instagram{
+.Footer__share_instagram{
    position: relative;
   top: -20px;
   left: 140px;
   width:15px;
   height: 15px;
 }
-#icons{
+.aside__share{
   position:relative;
   }
-#fbb{
+.aside__share_iconsfb{
   position: relative;
     width:8px;
   height: 20px;
 }
-#inst{
+.aside__share_iconsinst{
 
   position: relative;
     width:20px;
   height: 20px;
   left: 10px;
 }
-#pin{
+.aside__share_iconspin{
   
   position: relative;
     width:20px;
   height: 20px;
   left: 20px;
 }
-#Posts{
+.aside__posts_links{
 position: relative;
 left: -20px;
  font-size: 16px;
@@ -355,11 +341,11 @@ left: -20px;
   height: 17px;
  
    }
-#post{
+.aside__posts{
   position: relative;
   top: 100px;
 }
-#Top_posts{
+.aside__posts_TopPosts{
 
   font-size: 14px;
   font-family: "Ubuntu";
@@ -370,7 +356,7 @@ left: -20px;
   z-index: 54;
 }
 
-#comment{
+.aside__posts_links_comment{
 
   font-size: 12px;
   font-family: "Ubuntu";
@@ -380,27 +366,29 @@ left: -20px;
   width: 90px;
   height: 10px;
   z-index: 42;
+  position: relative;
+  top:10px;
 }
-#li{
+.aside__posts_links li{
  
   margin-top: 20px;
 
 }
-#banner{
+.aside__banner{
   position: relative;
   top: 300px;
   left: -65px;
 }
-#ban{
+.aside__banner_imagemBanner{
    
    position: relative;
   
   width:400px;
   height: 245px;
 }
-#sizeb{
+.aside__banner_sizebaneer{
 position: relative;
-top:-200px;
+top:-160px;
 left: 100px;
   font-size: 48px;
   font-family: "Ubuntu";
@@ -409,8 +397,9 @@ left: 100px;
   line-height: 1.2;
   width: 186px;
   height: 36px;
+  text-align: center;
   }
-  #banner_spot{
+  .aside__banner_bannerSpot{
 
   font-size: 14px;
   font-family: "Ubuntu";
@@ -419,7 +408,7 @@ left: 100px;
   line-height: 1.2;
   position: relative;
   left: 155px;
-  top: -225px;
+  top: -150px;
 
   }
 
