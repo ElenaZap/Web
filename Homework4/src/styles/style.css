@@ -19,11 +19,11 @@ body{
   color:#bdbdbd;
 }
 
- a {
+ a{
 text-decoration: none;
   color: #333333;
    }
- a:hover{
+ .header__search:hover{
   border-bottom: 3px solid #5c6bc0;
 
 }
@@ -312,7 +312,7 @@ text-decoration: underline;
 }
 .nav__links_search:hover{
   background-image: url(../images/search-hover.png);
-  
+  text-decoration: none;
 }
 .nav__links_search{
   background-image: url(../images/Search.png);
@@ -408,4 +408,15 @@ padding-bottom: 20px;
       background-color: #5360ac;
       width:22px;
       height:22px;
+}
+.footer__search{
+  padding: 10px;
+}
+.footer__search:hover{
+  
+   border: 10px;
+      background-color: #5360ac;
+      width:22px;
+      height:22px;
+
 }
