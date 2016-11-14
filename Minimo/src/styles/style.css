@@ -65,12 +65,12 @@ body {
  
 }
 .aside{
-	position: relative;
+  position: relative;
   top:-2120px;
   left: 880px;
-	width:285px;
-	height: 1000px;
-	}
+  width:285px;
+  height: 1000px;
+  }
 .article__text {
   font-size: 14px;
   font-family: "PlayfairDisplay";
@@ -104,8 +104,8 @@ body {
   top:100px;
 }
 .article__Photodiary{
-	position:relative;
-	top:100px;
+  position:relative;
+  top:100px;
 
 
   font-size: 14px;
@@ -116,7 +116,7 @@ body {
   height: 11px;
 }
 /*#main{
-	width:780px;
+  width:780px;
 }*/
 
 .nav_links li{
@@ -136,8 +136,8 @@ body {
   margin-right: 50px;
 }
 .wrapper{
-	max-height: 3200px;
-	margin:70px;
+  max-height: 3200px;
+  margin:70px;
 }
 .article__image1 {
   position: relative;
@@ -192,7 +192,7 @@ body {
  width:650px;
  }
  .article__text2{
- 	font-family: "PlayfairDisplay";
+  font-family: "PlayfairDisplay";
   color: rgb(98, 98, 98);
   font-weight: 400;
   line-height: 1.714;
@@ -204,7 +204,7 @@ body {
  width:720px;
  }
  .article__footer_pinterest{
- 	
+  
 position:relative;
 top:-95px;
 left:240px;
@@ -235,9 +235,9 @@ top:-30px;
 left:120px;
  }
  .article__footer{
- 	position: relative;
- 	left:600px;
- 	top:450px;
+  position: relative;
+  left:600px;
+  top:450px;
  }
  .article__footer_Share{
 
@@ -251,9 +251,9 @@ left:120px;
  .Footer{
  
    padding: 40px;
- 	height: :100px;
- 	background-color: #d9d9d9;
- 	position:relative;
+  height: :100px;
+  background-color: #d9d9d9;
+  position:relative;
    height: 20px;
    top:400px;
    width:1200px;
@@ -270,19 +270,19 @@ left:120px;
 left:20px;
 }
 .Footer__text_privacy{
-	margin: 30px;
+  margin: 30px;
 }
 
  .Footer__share{
- 	position: relative;
- 	left: 1000px;
+  position: relative;
+  left: 1000px;
   float: left;
   font-family: "PlayfairDisplay";
   font-size: 14px;
   font-weight: 600;
- 	
+  
   box-sizing:border-box;
-  	top:-20px;
+    top:-20px;
   margin-left: 0px;
  }
 .Footer__share_facebook{
@@ -411,5 +411,3 @@ left: 100px;
   top: -150px;
 
   }
-
-
