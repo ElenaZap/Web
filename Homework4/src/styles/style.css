@@ -22,10 +22,15 @@ body{
  a{
 text-decoration: none;
   color: #333333;
+
    }
  .header__search:hover{
   border-bottom: 3px solid #5c6bc0;
 
+}
+.header__link:hover{
+    border-bottom: 3px solid #5c6bc0;
+   transition: 0.1s;
 }
 a:active{
   color:#5c6bc0;
@@ -42,10 +47,9 @@ padding:100px;
 text-align: center;
 }
 
-.wrapper{
-width:965px;
-margin-left:  15%;
-margin-right: 5%;
+.wrapper {
+  width: 952px;
+  margin: 0 auto;
 }
 .clearfix:after {
   display: block;
@@ -101,7 +105,7 @@ margin-top: 10%;
 .section__posts_mountain{
   margin-top: 50px;
 }
-.section__posts_Sep-20{
+.posts_Sep-20{
 
   font-size: 14px;
   font-family: "Lato";
@@ -109,7 +113,8 @@ margin-top: 10%;
   font-weight: bold;
   line-height: 3.571;
   }
-  .section__posts_title1{
+  .posts_title1{
+  
     margin:0;
   font-size: 40px;
   font-family: "Lato";
@@ -117,17 +122,17 @@ margin-top: 10%;
   font-weight: bold;
   line-height: 1.25;
     }
-  .section__posts_line-post{
+  .posts_line-post{
     margin-top: 40px;
   }
-  .section__posts_text-post{
+  .posts_text-post{
   margin-top: 40px;
   font-size: 17px;
   font-family: "Lato_Regular";
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.765;
    }
-.section__posts_read-more{
+.read-more{
 
   font-size: 21px;
   font-family: "Lato";
@@ -140,6 +145,8 @@ margin-top: 10%;
 padding-bottom: 20px;
   width:135px;
   height:30px;
+  border: 2px transparent;
+
   }
  .section__posts_read-more:hover{
   border: 2px solid #f1f1f1;
@@ -147,13 +154,13 @@ padding-bottom: 20px;
  .section__posts_read-more:active{
   border: 2px solid #7d89cd;
  }
- .section__posts_hashtags{
+ .posts_hashtags{
  position: relative;
  left:500px;
  top:-65px;
   
    }
-   .section__posts_hashtags li{
+   .posts_hashtags li{
     display: inline;
     margin-left:10px;
     font-size: 15px;
@@ -161,25 +168,25 @@ padding-bottom: 20px;
   color: rgba(0, 0, 0, 0.302);
   line-height: 3.333;
    }
-    .section__posts_hashtags li a{
+    .posts_hashtags li a{
     text-decoration: none;
   color: rgba(0, 0, 0, 0.302);
 
    }
-   .section__posts_hashtags li a:hover{
+   .posts_hashtags li a:hover{
   color: rgb(114, 127, 200);
   text-decoration: underline;
    }
-    .section__posts_hashtags li a:active{
+    .posts_hashtags li a:active{
   transition: 0.5s;
   text-decoration: none;
    }
-   .section__posts_tag1{
+   .posts_tag{
 position: relative;
 top:-450px;
 left:780px;
    }
-   .section__posts_text-posts-italic{
+   .posts_text-posts-italic{
 
   font-size: 25px;
   font-family: "Lato_Italic";
@@ -187,14 +194,14 @@ left:780px;
   font-style: italic;
   line-height: 1.52;
   }
-   .section__posts_tag2{
+   .posts_tag2{
 position: relative;
 top:-890px;
 left:770px;
   
 
    }
-   .section__posts_image{
+   .posts3_image{
     margin-top: 40px;
     float: left;
    }
@@ -204,11 +211,11 @@ margin-top: 60px;
    .margin-top-0{
     margin-top:0;
    }
-   .section__posts_vertical-line{
+   .posts_vertical-line{
     float: left;
     margin-top: 20px;
    }
-   .section__posts_text-line{
+   .posts_text-line{
   margin-left: 40px;
   margin-top: 20px;
   font-size: 20px;
@@ -218,7 +225,7 @@ margin-top: 60px;
    
    }
   
-   .section__posts_tag3{
+   .posts_tag3{
     position: relative;
     top:-1150px;
     left:780px;
@@ -287,13 +294,9 @@ text-decoration: underline;
   height: 56px;
   width: 366px;
   border: none;
-  padding: 22px 32px;
+  padding: 10px 20px;
   margin-bottom: 30px;
- 
-  font-size: 20px;
-  font-family: "Lato";
-  color: rgba(51, 51, 51, 0.302);
-  line-height: 1.5;
+  font-family: Lato;
   
 }
 .link{
@@ -323,58 +326,77 @@ width: 16px;
   transition: 0.2s;
 }
 .tag-Travel{
-   background-image: url(../images/I-Do-Travel.png);
+  box-sizing: border-box;
+background-color:#5c6bc0;
 width: 88px;
   height: 32px;
   display: inline-block;
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
   vertical-align: middle;
   transition: 0.1s;
+  padding: 5px;
 }
 .tag-Travel:hover{
-background-image: url(../images/I-Do-Travel-hover.png);
+text-align: center;
 width: 98px;
   height: 36px;
  }
  .tag-Observe{
-   background-image: url(../images/I-Do-Observe.png);
+   box-sizing: border-box;
+background-color:#5c6bc0;
 width: 102px;
   height: 32px;
   display: inline-block;
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
   vertical-align: middle;
   transition: 0.1s;
  }
  .tag-Observe:hover{
-  background-image: url(../images/I-Do-Observe-hover.png);
+ text-align: center;
 width: 105px;
   height: 35px;
    }
   .tag-Reflect{
-    background-image: url(../images/I-Do-Reflect.png);
+   background-color:#5c6bc0;
 width: 94px;
   height: 32px;
   display: inline-block;
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
   vertical-align: middle;
   transition: 0.1s;
   }
   .tag-Reflect:hover
   {
-    background-image: url(../images/I-Do-Reflect-hover.png);
-width: 98px;
+    text-align: center;
+width: 100px;
   height: 35px;
   }
   .tag-Reflect:active{
-    background-image: url(../images/I-Do-Reflect-click.png);
+    background-color: #3245b8;
 width: 100px;
-  height: 32px;
+  height: 35px;
  
   }
    .tag-Observe:active{
-    background-image: url(../images/I-Do-Observe-click.png);
-width: 94px;
-  height: 32px;
+    background-color: #3245b8;
+width: 105px;
+  height: 35px;
    }
     .tag-Travel:active{
-    background-image: url(../images/I-Do-Travel-click.png);
+   
+    background-color: #3245b8;
 width: 94px;
   height: 32px;
  
@@ -383,8 +405,32 @@ width: 94px;
   
   color:#a9afdb;
   }
-  .send-message{
+  .read-more{
+   
+    font-size: 21px;
+
+  font-family: "Lato";
+  color: rgb(92, 107, 192);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.381;
+ text-align: center;
+ 
+  padding-bottom: 10px;
+  width:200px;
+ max-height:30px;
+  background: none;
+  border: 2px solid transparent;
+  }
+   .read-more:hover{
+  border: 2px solid #f1f1f1;
+ }
+ .read-more:active{
+  border: 2px solid #7d89cd;
+ }
+  .read-more{
 font-size: 21px;
+
   font-family: "Lato";
   color: rgb(92, 107, 192);
   font-weight: bold;
@@ -394,7 +440,25 @@ font-size: 21px;
   padding: 5px;
 padding-bottom: 20px;
   width:200px;
-  height:30px;
+  height:60px;
+  background: none;
+  border: 2px solid transparent;
+  }
+  .send-message{
+font-size: 21px;
+
+  font-family: "Lato";
+  color: rgb(92, 107, 192);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.381;
+ text-align: center;
+  padding: 5px;
+padding-bottom: 20px;
+  width:200px;
+  height:60px;
+  background: none;
+  border: 2px solid transparent;
   }
    .send-message:hover{
   border: 2px solid #f1f1f1;
