@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(../fonts/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: Lato_Regular; /* Имя шрифта */
+    src: url(../fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: Lato_Italic; /* Имя шрифта */
+    src: url(../fonts/Lato-Italic.ttf); /* Путь к файлу со шрифтом */
+   }
+
+    .contacts__height-form{
+      height:845px;
+
+    }
+   .input {
+  background-color: #f7f9fc;
+  height: 56px;
+  width: 366px;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  font-family: Lato;
+  
+}
+
+.textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 146px;
+}
+.section__contacts{
+  margin-top: 50px;
+}
+
+  
+  .send-message{
+font-size: 21px;
+
+  font-family: "Lato";
+  color: rgb(92, 107, 192);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.381;
+ text-align: center;
+  padding: 5px;
+padding-bottom: 20px;
+  width:200px;
+  height:60px;
+  background: none;
+  border: 2px solid transparent;
+  }
+   .send-message:hover{
+  border: 2px solid #f1f1f1;
+ }
+ .send-message:active{
+  border: 2px solid #7d89cd;
+ }
+ 

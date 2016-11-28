@@ -1,23 +1,9 @@
+{% extends "layout.html" %}
   <html>
-				 <head>
-				 	<link rel="stylesheet" href="../styles/style.css" > 
-				 </head>
  
 				 <body>
 				 
-				 	<div class="wrapper">
-				 	<div class="header">
-				 		<a href="index.html"><img class="logo" src="../images/logo.png" alt="Logo">	</a>
-				 		<div class="nav">
-				 		 	<ul class="nav_links">
-                        	<li><a class="header__link" href="index.html">home</a></li>
-                        	<li><a class="header__link" href="#">about</a></li>
-                        	<li><a class="header__link" href="#">archive</a></li>
-                        	<li><a class="inactive" href="#">contact</a></li>
-                        	<li><a class="nav__links_search" href="#"></a></li>
-                    </ul>
-                	</div>
-				 	</div>
+				 	 {% block main %}
 				 	<section class="section__posts contacts__height-form">
 				 		<p class="posts_title1">Contact Us</p>
 				 		<p class="posts_text-post">Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non. Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.</p>
@@ -33,27 +19,8 @@
 					</form>
 				 	</section>
 				 </div>
-				 <footer>
-				 	<img class="footer__paolo-alto" src="../images/Palo-Alto-Footer.png" alt="Paolo Alto">
-
-				<div class="footer__nav">
-				 		 	<ul class="footer__nav_links">
-                        	<li><a class="link"  href="index.html">home</a></li>
-                        	<li><a class="link"  href="#">about</a></li>
-                        	<li><a class="link"  href="#">archive</a></li>
-                        	<li><a class="inactive" href="#">contact</a></li>
-                        	<li><a class="footer__search" href="#"><img src="../images/footer-search.png" alt="Search"></a></li>
-                    </ul>
-							<img class="footer__line" src="../images/line-text.png" alt="line">
-							<p class="footer__text">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by <span class="footer__text_pixel">PixelBuddha Team</span></p>
-                   <div class="footer__share">
-                    <a href="#"> <img class="footer__share_icon  backgr" src="../images/facebook.png" alt="fb"></a>
-                    <a href="#"> <img class="footer__share_icon backgr" src="../images/twitter.png" alt="fb"></a>
-                    <a href="#"> <img class="footer__share_icon backgr" src="../images/instagram.png" alt="fb"></a>
-                    <a href="#"> <img class="footer__share_icon backgr" src="../images/pinterest.png" alt="fb"></a>
-                
-                </div>
-				 </footer>
+				  {% endblock %}
+				
 				 </body>
  
    </html>
